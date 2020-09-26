@@ -27,3 +27,6 @@ typedef struct Mess
 ```shell
 docker run -d -p 6666:6666 lilqcn/imsystem:v1
 ```
+
+### 客户端实现(c Linux)
++ [项目地址](https://github.com/quan930/c_im_system_client_gui)
