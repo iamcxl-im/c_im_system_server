@@ -42,7 +42,7 @@ static void handle_writer(void *argv){
             continue;
         }
         n = write(*threadArg.client_fd,buffer, sizeof(buffer));
-        write(*threadArg.client_fd,"\n",strlen("\n"));
+        write(*threadArg.client_fd,"\n",strlen("\n")+1);
         printf("send mess\n");
         if (n==0||n==-1){
             break;

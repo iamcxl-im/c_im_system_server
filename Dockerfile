@@ -1,4 +1,4 @@
-# docker run -d -p 6666:6666 lilqcn/imsystem:v1
+# docker run -d -p 6666:6666 lilqcn/imsystem:v2
 # 运行
 # 构建成功后没有进行删除 镜像过大
 
