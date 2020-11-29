@@ -1,0 +1,21 @@
+typedef struct Mess
+{
+    char user[16];
+    char sendObject[16];//发送对象
+    char news[128];
+    char date[32];
+    int function;//指令 1为消息 2为登陆 3为注册 4为退出 5为运行登陆 默认为0
+} Mess;
+
+
+//登陆
+{"user":"0001","sendObject":null,"news":"0001","date":null,"function":2}
+{"user":"0002","sendObject":null,"news":"0002","date":null,"function":2}
+//注册
+{"user":"0001","sendObject":null,"news":"0001","date":null,"function":3}
+//退出
+{"user":"0001","sendObject":null,"news":null,"date":null,"function":4}
+
+//单发消息
+{"user":"0001","sendObject":"0002","news":"hello","date":null,"function":1}
+
